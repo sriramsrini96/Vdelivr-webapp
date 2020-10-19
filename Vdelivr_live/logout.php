@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['weboonuid']);
+unset($_SESSION['weboonuname']);
+unset($_SESSION['weboonumob']);
+unset($_SESSION['weboonupass']);
+session_destroy();
+header("Location:index.php");
+?>

@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['oonaid']);
+unset($_SESSION['oonaname']);
+unset($_SESSION['oonauserid']);
+unset($_SESSION['oonapass']);
+session_destroy();
+header("Location:index.php");
+?>

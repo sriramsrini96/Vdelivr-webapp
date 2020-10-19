@@ -1,0 +1,579 @@
+#add_address .bs-example-modal-lg .modal-content {
+    background: #fff;
+    box-shadow: none;
+    border: none;
+}
+#add_address .bs-example-modal-lg .modal-content .modal-header h4 {
+    margin: 0px;
+    font-size: 28px;
+    color: #ec4801;
+    text-align: center;
+}
+#add_address .bs-example-modal-lg .modal-content .close {
+    font-weight: normal;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .6;
+    font-size: 28px;
+    
+}
+#add_address .bs-example-modal-lg .modal-content .modal-header .close {
+    margin-top: 6px;
+}
+#add_address .bs-example-modal-lg .modal-content .modal-body {
+    position: relative;
+    padding: 0;
+}
+#add_address .bs-example-modal-lg .modal-content .modal-header{
+	border-bottom: 0px solid #e5e5e5;
+}
+
+
+#add_address .modal-open .modal {
+		z-index: 102499998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(40,44,62,.6);
+		}
+#add_address .modal-dialog{
+		position: fixed;
+    left: 0%;
+	right:0;
+    bottom: 100px!important;
+    
+    pointer-events: auto;
+    z-index: 102499999;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+		}
+		
+#add_address .modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+#add_address .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+#add_address .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#add_address .modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+#add_address .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #000000a1;
+}
+
+
+
+
+#add_address .login-header {
+    background: #ec7702;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#add_address .login-header, .login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#add_address .login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-top-color: #ec7702;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+
+#add_address .address_containers {
+    padding-top: 30px!important;
+    padding: 0 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+
+#add_address .login_part .input-group-icon {
+    position: relative;
+}
+#add_address .login_part .input-group {
+    margin-bottom: 1em;
+    zoom: 1;
+}
+#add_address .input-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#add_address .login_part .input-group-icon input {
+    padding-left: 4.4em;
+}
+#add_address .login_part input, .login_part input[type="radio"] + label, .login_part input[type="checkbox"] + label:before, .login_part select option, .login_part select {
+    width: 100%;
+    padding: 1em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+#add_address .login_part .input-group-icon .input-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.4em;
+    height: 3.4em;
+    line-height: 3.4em;
+    text-align: center;
+    pointer-events: none;
+}
+
+#add_address .login_part .input-group-icon .input-icon i {
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+#add_address .submit_btn_part {
+    margin: 20px 0px;
+}
+
+#add_address .submit_btn_part .btn-success {
+    color: #fff;
+    background-color: #ec7702;
+    border-color: #ec7702;
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    height: 50px;
+}
+#add_address .btn_animation {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    background: #d63138;
+    border-radius: 20px;
+    border: 1px solid #d63138;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+}
+#add_address .btn_animation {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    background: #d63138;
+    border-radius: 20px;
+    border: 1px solid #d63138;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+}
+
+#add_address .submit_btn_part .btn_animation:after {
+    cursor: pointer;
+    background: #fff;
+    content: "";
+    border-radius: 20px;
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 50px;
+    z-index: -10;
+    animation: hvr 1s linear infinite;
+}
+#add_address .login_part .input-group:after {
+    clear: both;
+}
+#add_address .login_part .input-group:before, .login_part .input-group:after {
+    content: "";
+    display: table;
+}
+
+#select_address .checkbox-inline, .radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#select_address label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+#select_address .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+}
+#select_address input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+#select_address input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+#select_address button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#select_address input {
+    line-height: normal;
+}
+#select_address button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+/*************************************************************************/
+.change_modal_style .bs-example-modal-lg .modal-content {
+    background: #fff;
+    box-shadow: none;
+    border: none;
+}
+.change_modal_style  .bs-example-modal-lg .modal-content .modal-header h4 {
+    margin: 0px;
+    font-size: 28px;
+    color: #ec4801;
+    text-align: center;
+}
+.change_modal_style  .bs-example-modal-lg .modal-content .close {
+    font-weight: normal;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .6;
+    font-size: 28px;
+    
+}
+.change_modal_style  .bs-example-modal-lg .modal-content .modal-header .close {
+    margin-top: 6px;
+}
+.change_modal_style  .bs-example-modal-lg .modal-content .modal-body {
+    position: relative;
+    padding: 0;
+}
+.change_modal_style  .bs-example-modal-lg .modal-content .modal-header{
+	border-bottom: 0px solid #e5e5e5;
+}
+
+
+.change_modal_style  .modal-open .modal {
+		z-index: 102499998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(40,44,62,.6);
+		}
+.change_modal_style  .modal-dialog{
+		position: fixed;
+    left: 0%;
+	right:0;
+    bottom: 100px!important;
+    
+    pointer-events: auto;
+    z-index: 102499999;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+		}
+		
+.change_modal_style  .modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.change_modal_style  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.change_modal_style  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.change_modal_style  .modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.change_modal_style  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #000000a1;
+}
+
+
+
+
+.change_modal_style  .login-header {
+    background: #ec7702;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.change_modal_style  .login-header, .login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.change_modal_style  .login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-top-color: #ec7702;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+
+.change_modal_style  .address_containers {
+    padding-top: 30px!important;
+    padding: 0 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+
+.change_modal_style  .login_part .input-group-icon {
+    position: relative;
+}
+.change_modal_style  .login_part .input-group {
+    margin-bottom: 1em;
+    zoom: 1;
+}
+.change_modal_style  .input-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.change_modal_style  .login_part .input-group-icon input {
+    padding-left: 4.4em;
+}
+.change_modal_style  .login_part input, .login_part input[type="radio"] + label, .login_part input[type="checkbox"] + label:before, .login_part select option, .login_part select {
+    width: 100%;
+    padding: 1em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.change_modal_style  .login_part .input-group-icon .input-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.4em;
+    height: 3.4em;
+    line-height: 3.4em;
+    text-align: center;
+    pointer-events: none;
+}
+
+.change_modal_style  .login_part .input-group-icon .input-icon i {
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.change_modal_style  .submit_btn_part {
+    margin: 20px 0px;
+}
+
+.change_modal_style  .submit_btn_part .btn-success {
+    color: #fff;
+    background-color: #ec7702;
+    border-color: #ec7702;
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    height: 50px;
+}
+.change_modal_style  .btn_animation {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    background: #d63138;
+    border-radius: 20px;
+    border: 1px solid #d63138;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+}
+.change_modal_style  .btn_animation {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    background: #d63138;
+    border-radius: 20px;
+    border: 1px solid #d63138;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.change_modal_style  .submit_btn_part .btn_animation:after {
+    cursor: pointer;
+    background: #fff;
+    content: "";
+    border-radius: 20px;
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 50px;
+    z-index: -10;
+    animation: hvr 1s linear infinite;
+}
+.change_modal_style  .login_part .input-group:after {
+    clear: both;
+}
+.change_modal_style  .login_part .input-group:before, .login_part .input-group:after {
+    content: "";
+    display: table;
+}
+
+#select_address .checkbox-inline, .radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#select_address label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+#select_address .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+}
+#select_address input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+#select_address input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+#select_address button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#select_address input {
+    line-height: normal;
+}
+#select_address button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}

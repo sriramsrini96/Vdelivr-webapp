@@ -1,0 +1,36 @@
+.tabdis {
+    text-align: center;
+    border: 2px solid black;
+    }
+
+td,th{
+	padding-top: 10px;
+	padding-bottom:  10px;
+	text-align: center;
+}
+.addhead{
+	text-align: center;
+	color:#000000;
+	font-size: 20px;
+}
+.lab{
+	color:#000000;
+}
+.err {
+    font-size: 21px;
+    color: #FF0000;
+}
+.fa-fw {
+    width: 20px !important;
+    display: inline-block !important;
+    text-align: left !important;
+}
+.rowmar{
+    margin-top: 4%;
+}
+.content{
+padding:20px 50px 50px 50px;    
+}
+
+.pointer {cursor: pointer;}
+.iconcolor{color:#1385E4;}
